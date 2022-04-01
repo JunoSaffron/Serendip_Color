@@ -1,0 +1,738 @@
+@media(max-width:1920px){
+    #menu-btn{
+        display: initial;
+    }
+
+    #menu-btn.fa-times{
+        transform:rotate(180deg);
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:100%; left:0; right:75%;
+        background-color: #E8E8E8;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .header .navbar a{
+        display: block;
+        font-size: 2.2rem;
+        margin:0;
+        padding:1rem 6rem;
+        text-align: left;
+    }
+
+    .capabout .heading{
+        padding-top: 88rem;
+    }
+
+    .capacityabout .heading{
+        padding-top: 88rem;
+    }
+}
+
+@media (min-width: 1281px) {
+    .capacityabout .heading{
+        padding-top: 120rem;
+    }
+
+    .careerabouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:60rem;
+      }
+    
+    .empheading{
+          font-size: 5rem;
+          text-align: center;
+          padding-top: 20rem;
+        }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .header .navbar{
+        position: absolute;
+        top:99%; left:0; right:60%;
+        background-color: #E8E8E8;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .header .navbar a{
+        display: block;
+        font-size: 2.2rem;
+        margin:0;
+        padding:1.5rem 6rem;
+        text-align: left;
+    }
+
+    .capacityabout .heading{
+        padding-top: 68rem;
+      }
+
+    .careerabouthome .video-container video{
+        position: absolute;
+        top:63rem; left: 0;
+        z-index: -1;
+        height: 100%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .heading{
+        font-size: 6rem;
+    }
+
+    .heading span{
+        font-size: 2.3rem;
+    }
+
+    .home{
+        text-align: center;
+    }
+
+    .home .row .content h3{
+        font-size: 4rem;
+    }
+
+    .menu .box-container .box{
+        margin-left: 0;
+        margin-top: 6rem;
+        flex-flow: column;
+        text-align: center;
+    }
+
+    .menu .box-container .box img{
+        margin-left: 0;
+        margin-top: -6rem;
+    }
+
+    .promenu .box-container .box{
+        margin-left: 0;
+        margin-top: 6rem;
+        text-align: center;
+    }
+
+    .promenu .box-container .box img{
+        margin-left: 0;
+        margin-top: -6rem;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        display: none;
+    }
+
+    .prohome .content h3{
+        font-size: 4rem;
+      }
+
+    .prohome .content p{
+        font-size: 1.5rem;
+    }
+
+    .producthome .slide {
+        position: relative;
+        height: calc(100vh - 6rem);
+      }
+      .producthome .slide .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        height: 100%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      .producthome .slide .content img {
+        display: inline-block;
+      }
+      .producthome .slide .content .controls {
+        position: static;
+        margin-top: 7rem;
+      }
+      .producthome .slide .content .controls div {
+        margin: 0 .5rem;
+      }
+      .producthome .slide .image {
+        width: 100%;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
+      .header .navbar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background-color: #E8E8E8;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .abouthome {
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .abouthome .video-container video{
+        position: absolute;
+        top:0; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .abouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:7rem;
+      }
+
+      .careerabouthome .video-container video{
+        position: absolute;
+        top:75rem; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .careerabouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:10rem;
+      }
+
+      .empheading{
+          font-size: 5rem;
+          text-align: center;
+          padding-top: 3rem;
+        }
+
+      .capabout .heading{
+        padding-top: 60rem;
+      }
+
+      .capacityabout .heading{
+        padding-top: 55rem;
+      }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .abouthome {
+        min-height: 85vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .abouthome .video-container video{
+        position: absolute;
+        top:0; left: 0;
+        z-index: -1;
+        height: 80%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .abouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:25rem;
+      }
+
+      .capacityabout .heading{
+        padding-top: 70rem;
+      }
+
+      .careerabouthome .video-container video{
+        position: absolute;
+        top:65rem; left: 0;
+        z-index: -1;
+        height: 100%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .careerabouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:20rem;
+      }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  html{
+        font-size: 50%;
+    }
+
+    .home .row .image img{
+        height: auto;
+        width: 100%;
+    }
+
+    .abouthome .video-container video{
+        position: absolute;
+        top:0; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .abouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:15rem;
+      }
+
+      .careerabouthome .video-container video{
+        position: absolute;
+        top:105rem; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .careerabouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:10rem;
+      }
+
+      .empheading{
+          font-size: 5rem;
+          text-align: center;
+          padding-top: 0rem;
+        }
+
+      .capabout .heading{
+        padding-top: 42rem;
+      }
+
+      .capacityabout .heading{
+        padding-top: 42rem;
+      }
+
+      .header .navbar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background-color: #E8E8E8;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .producthome .slide {
+        position: relative;
+        height: calc(100vh - 6rem);
+      }
+      .producthome .slide .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        height: 100%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      .producthome .slide .content img {
+        display: inline-block;
+      }
+      .producthome .slide .content .controls {
+        position: static;
+        margin-top: 7rem;
+      }
+      .producthome .slide .content .controls div {
+        margin: 0 .5rem;
+      }
+      .producthome .slide .image {
+        width: 100%;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
+      .abouthome{
+        min-height: 60vh;
+      }
+
+      .abouthome .video-container video{
+        position: absolute;
+        top:0; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .abouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:20rem;
+        padding-bottom: 0rem;
+      }
+      .capacityabout .heading{
+        padding-top: 45rem;
+      }
+
+      .header{
+        /*padding:2rem;*/
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    
+    .careerabouthome .video-container video{
+        position: absolute;
+        top:90rem; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .careerabouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:5rem;
+      }
+
+      .careerabouthome {
+        min-height: 62vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 413px) {
+  html{
+        font-size: 40%;
+    }
+
+  .header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+    .header .navbar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background-color: #E8E8E8;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    
+    .producthome .slide {
+        position: relative;
+        height: calc(100vh - 6rem);
+      }
+      .producthome .slide .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        height: 100%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      .producthome .slide .content img {
+        display: inline-block;
+      }
+      .producthome .slide .content .controls {
+        position: static;
+        margin-top: 7rem;
+      }
+      .producthome .slide .content .controls div {
+        margin: 0 .5rem;
+      }
+      .producthome .slide .image {
+        width: 100%;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
+      .abouthome {
+        min-height: 60vh;
+        display: f
+        .capacityabout .heading{
+        padding-top: 73rem;
+      }lex;
+        align-items: center;
+        justify-content: center;
+    }
+    .abouthome .video-container video{
+        position: absolute;
+        top:0; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .abouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:15rem;
+      }
+      .capacityabout .heading{
+        padding-top: 40rem;
+      }
+
+      .careerabouthome .video-container video{
+        position: absolute;
+        top:90rem; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .careerabouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:10rem;
+      }
+
+      .careerabouthome {
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 414px) {
+    html{
+        font-size: 40%;
+    }
+
+  .header{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        -webkit-box-align: center;
+        align-items: center;
+    }
+
+    .header .navbar{
+        position: absolute;
+        top:99%; left:0; right:0;
+        background-color: #E8E8E8;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    
+    .producthome .slide {
+        position: relative;
+        height: calc(100vh - 6rem);
+      }
+      .producthome .slide .content {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.7);
+        height: 100%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+      }
+      .producthome .slide .content img {
+        display: inline-block;
+      }
+      .producthome .slide .content .controls {
+        position: static;
+        margin-top: 7rem;
+      }
+      .producthome .slide .content .controls div {
+        margin: 0 .5rem;
+      }
+      .producthome .slide .image {
+        width: 100%;
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        display: none;
+      }
+
+      .abouthome {
+        min-height: 60vh;
+        display: f
+        .capacityabout .heading{
+        padding-top: 73rem;
+      }lex;
+        align-items: center;
+        justify-content: center;
+    }
+    .abouthome .video-container video{
+        position: absolute;
+        top:0; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .abouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:15rem;
+      }
+
+
+      .capacityabout .heading{
+        padding-top: 48rem;
+      }
+
+    .careerabouthome .video-container video{
+        position: absolute;
+        top:80rem; left: 0;
+        z-index: -1;
+        height: 60%;
+        width:100%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        object-fit: cover;
+        align-items: center;
+      }
+
+    .careerabouthome .controls{
+        padding:1rem;
+        border-radius: 5rem;
+        background:rgba(0,0,0,.7);
+        position: relative;
+        top:10rem;
+      }
+
+      .careerabouthome {
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+Excluded last media
